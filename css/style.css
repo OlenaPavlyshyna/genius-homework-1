@@ -1,0 +1,93 @@
+
+:root {
+    --color-brand: #2B7FFF;
+    --primary-general: #011C44;
+    --primary-light: #FFFFFF;
+    --secondary-general: #4A4A4A;
+    --color-body: #000000;
+}
+/* Global */
+body {
+    color: var(--color-body);
+}
+p {
+    size: 22px;
+    line-height: 1.7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Button */
+.button {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 32px;
+    color: var(--primary-light);
+    background-color: var(--color-brand);
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid var(--color-brand);
+    color: var(--primary-general);
+    background-color: transparent;
+
+}
+
+/* Link */
+header .link {
+    size: 18px;
+    color: var(--primary-general);
+
+}
+
+footer .link {
+    size: 16px;
+    color: var(--primary-light);
+}
+
+.link {
+text-decoration: none;
+}
+.link:hover {
+    color: var(--color-brand);
+}
+
+/* Hero section */
+.title-description {
+color: var(--primary-general);
+size: 18px;
+}
+
+.hero-title {
+    size: 140px;
+    line-height: 0.8;
+    color: var(--color-brand);
+}
+
+.call-description {
+    size: 12px;
+    color: var(--secondary-general)
+}
+
+/* All section */
+.section-title{
+    color: var(--primary-general);
+    size: 64px;
+}
+
+.section-title .accent {
+    color: var(--color-brand);
+}
+
+
+
+
+
+
+
+footer {
+    background-color: var(--primary-general);
+}
